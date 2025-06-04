@@ -1,0 +1,54 @@
+.header {}
+
+.header__inner,
+.header__logo,
+.header__nav-list,
+.header__socials-list,
+.header__socials-item a {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.header__inner {
+  padding: 64px 0;
+  justify-content: space-between;
+  gap: 15px;
+
+  font-family: var(--second-family);
+}
+
+.header__logo,
+.header__socials-item a {
+  gap: 8px;
+}
+
+.header__logo {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.31;
+}
+
+.header__nav {
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.header__nav-list,
+.header__socials-list {
+  gap: 32px;
+}
+
+.header__nav-list {}
+
+.header__nav-item {}
+
+
+.header__socials-list {}
+
+.header__socials-item a {}
+
+.header__socials-item svg {
+  transform: translateY(-1px);
+}
