@@ -15,6 +15,7 @@
   padding: 64px 0;
   justify-content: space-between;
   gap: 15px;
+  border-bottom: 1px solid var(--grey);
 
   font-family: var(--second-family);
 }
@@ -30,6 +31,19 @@
   line-height: 1.31;
 }
 
+.header__logo,
+.header__nav-item,
+.header__socials-item {
+  transition: all .4s;
+}
+
+
+.header__logo:hover,
+.header__nav-item:hover,
+.header__socials-item:hover {
+  color: var(--brand-1);
+}
+
 .header__nav {
   font-size: 24px;
   line-height: 1.33;
@@ -40,10 +54,14 @@
   gap: 32px;
 }
 
+
 .header__nav-list {}
 
 .header__nav-item {}
 
+.header__nav-item.active {
+  color: var(--brand-1);
+}
 
 .header__socials-list {}
 
