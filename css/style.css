@@ -1,6 +1,126 @@
 @import url("global.css");
 @import url("header.css");
 
+/* ======================================= */
+
+.hero__inner {
+  margin: 0 auto;
+  padding: 64px 15px 130px;
+  max-width: 1450px;
+}
+
+.hero__title {
+  margin-bottom: 64px;
+  font-size: 117px;
+  line-height: 1.15;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--brand-2);
+}
+
+.hero__main {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+
+  font-size: 14px;
+  font-family: var(--second-family);
+}
+
+.hero__info {
+  padding: 37px 24px 125px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid var(--white);
+  border-radius: 160px 0;
+}
+
+
+.hero__info-photo {
+  margin: 0 auto 16px;
+  max-width: 96px;
+  overflow: hidden;
+  border: 3px solid var(--brand-1);
+  border-radius: 50%;
+}
+
+.hero__info-photo img {
+  width: 100%;
+}
+
+.hero__info-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.31;
+  text-align: center;
+}
+
+.hero__info-subtitle {
+  margin-bottom: 32px;
+  line-height: 1.29;
+  text-align: center;
+}
+
+.hero__info-list {
+  margin-bottom: 16px;
+}
+
+.hero__info-item {
+  margin-bottom: 18px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero__info-item:last-child {
+  margin-bottom: 0;
+}
+
+.hero__info-languages {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero__info-languages li {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  background: var(--brand-1);
+
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--bg-1);
+}
+
+.hero__main-right {}
+
+.hero__greeting {}
+
+.hero__greeting-title {}
+
+.svg__h1-start {}
+
+.hero__greeting-inner {}
+
+.svg__h1-end {}
+
+.hero__greeting-descr {}
+
+.svg__p-start {}
+
+.svg__p-end {}
+
+.hero__greeting-mail {}
+
+.hero__greeting-mail-link {}
+
+.hero__present-list {}
+
+.hero__present-item {}
 
 
 
