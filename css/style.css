@@ -42,15 +42,16 @@
 
 .hero__info-photo {
   margin: 0 auto 16px;
-  max-width: 96px;
+  width: 96px;
+  height: 96px;
   overflow: hidden;
   border: 3px solid var(--brand-1);
   border-radius: 50%;
 }
 
 .hero__info-photo img {
-  width: 96px;
-  height: 96px;
+  width: 100%;
+  height: auto;
 }
 
 .hero__info-title {
