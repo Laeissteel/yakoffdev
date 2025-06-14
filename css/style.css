@@ -48,10 +48,6 @@
   border-radius: 50%;
 }
 
-.hero__info-photo img {
-  width: 100%;
-}
-
 .hero__info-title {
   font-weight: 500;
   font-size: 32px;
