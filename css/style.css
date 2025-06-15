@@ -9,6 +9,13 @@
   max-width: 1465px;
 }
 
+.hero__title,
+.hero__present-list,
+.hero__info {
+  opacity: 0;
+  transition: all 1.5s;
+}
+
 .hero__title {
   margin-bottom: 64px;
   font-size: 117px;
@@ -16,6 +23,8 @@
   text-transform: capitalize;
   text-align: center;
   color: var(--brand-2);
+
+  transform: translateY(30px);
 }
 
 .hero__main {
@@ -23,6 +32,18 @@
   gap: 30px;
   justify-content: space-between;
   align-items: center;
+}
+
+.hero__info {
+  transform: translateX(30px);
+}
+
+.hero__title.visible,
+.hero__info.visible,
+.hero__present-list.visible {
+  transform: translateX(0);
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .hero__info-inner {
@@ -196,6 +217,8 @@
 
   font-family: var(--second-family);
   line-height: 1.25;
+
+  transform: translateX(-30px);
 }
 
 .hero__present-list span:first-child {
